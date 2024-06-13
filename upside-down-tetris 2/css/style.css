@@ -8,5 +8,27 @@
 */
 .tetris-block {
     padding: 20px;
-    ;
+    border-width: 12px;
+    border-style: outset;
+    display: inline-block;
+}
+.red {
+    background-color: #de0000;
+    border-color: #de0000;
+}
+.brown {
+    background-color: #56423d;
+    border-color: #56423d;    
+}
+.blue {
+    background-color: #4800ff;
+    border-color: #4800ff;    
+}
+.green {
+    background-color: #09ff00;   
+    border-color: #09ff00;    
+} 
+.teal {
+    background-color: #328acd; ;
+    border-color: #328acd;    
 }
