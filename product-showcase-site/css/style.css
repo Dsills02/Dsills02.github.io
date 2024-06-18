@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+img.sandal1 {
+    width: 50%;
+}
+img.sandal2 {
+    width: 50%;
+}
+img.sandal3 {
+    width: 50%;
+}
+.single-column-1, .single-column-2, .single-column-3 {
+    width: 50%;
+    min-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.c1 {
+    background-color: aquamarine;
+    padding: 48px ;    
+}
+.c2 {
+    background-color: beige;
+    padding: 48px ;
+}
+.c3 {
+    background-color: aquamarine;
+    padding: 48px ;
+}
+h2 {
+    font-family: fantasy;
+    border: 24px solid rgb(137, 137, 92);
+    padding: 24px 0px;;
+    }
