@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    /* preferred copy font goes here */
+    font-family:'Courier New', Courier, monospace; 
+}
+img {
+    width: 250px;;
+}
+#three-columns {
+    display: grid;
+    grid-template-columns: 400px 500px 250px;
+    grid-template-areas: 
+        "column-1 column-2 column-3";
+}
+#column-1 {
+    background-color: rgb(255, 255, 255);
+}
+#column-2 {
+    background-color: rgb(255, 255, 255)
+}
+#column-3 {
+    background-color: rgb(255, 255, 255);
+}
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #9d97a7;
+    color: white;
+    padding: 0px;
+    border-radius: 48px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+.mebay {
+    display: inline-block;
+    font-weight: bold;
+}
+#m {
+    color: darkred;
+}
+#e {
+    color: rgb(55, 37, 220);
+}
+#b {
+    color: rgb(224, 166, 72);
+}
+#a {
+    color: rgb(56, 208, 107);
+}
+#y {
+    color: rgb(230, 166, 166);
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#buy {
+    color: blue;
+    flex: 1;
+    padding: 10px;
+}
+#add-to-cart {
+    color: blue;
+    flex: 2;
+    padding: 10px;
+}
+#add-to-wishlist {
+    color: blue;
+    flex: 100%;
+    padding: 10px;
+}
+
