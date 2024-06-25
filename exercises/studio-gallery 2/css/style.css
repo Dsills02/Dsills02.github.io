@@ -1,0 +1,32 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+img {
+    display: block;
+}
+.border1 {
+    border: 20px outset saddlebrown; 
+    margin: 70px 12px 0px;
+}
+.border1 img {
+    width: 70px;
+}
+#b1 div {
+    background-color: rgb(229, 207, 142);
+    padding: 10px;
+    p {
+        height: 100px;
+        font-size:x-small;
+        font-family:inherit;
+        color: brown;
+    }
+}
+#b1 {
+    border: none;
+    height: 24;
+}
