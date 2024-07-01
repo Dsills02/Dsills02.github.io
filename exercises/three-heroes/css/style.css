@@ -1,18 +1,61 @@
-* {
-    box-sizing: border-box;
-}
-body {
-    margin: 0px;
-    font-family: sans-serif;
-    text-align: center;
+#hero-1 a, #hero-2 a, #hero-3 a {
+    font-size: 1.5vw;
+    background-color: #3c3838;
+    color:beige;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
 }
 
-#hero-1 {
-    height: 100vh;
-    background-image: url(../images/image4.jpg);
-    background-size: cover;
+#hero-1 h1 {
+    font-size: 15vw;
+    padding-left: 10vw;
 }
-#hero-1 h6 {
-    box-shadow: inset;
-    background-color: beige;
+
+#head {
+    padding: 50px 0px;
+    text-align: center;
+    border-top: 2px solid #3c3838;
+    border-bottom: 5px solid #3c3838;
+   
+}
+#hero-1 {
+    background-image: url(../images/image4.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero-2 {
+    background-image: url(../images/image6.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-2 h1 {
+    color: white;
+    font-size: 15vw;
+    padding-left: 10vw;
+}
+
+#hero-3 {
+    background-image: url(../images/image5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-3 h1 {
+    color: white;
+    font-size: 15vw;
+    padding-left: 10vw;
 }
