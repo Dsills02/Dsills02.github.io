@@ -10,6 +10,7 @@
 #hero-1 h1 {
     font-size: 15vw;
     padding-left: 10vw;
+    color: rgb(22, 24, 23);
 }
 
 #head {
@@ -25,8 +26,9 @@
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 #hero-2 {
     background-image: url(../images/image6.jpg);
@@ -58,4 +60,6 @@
     color: white;
     font-size: 15vw;
     padding-left: 10vw;
+    
 }
+
