@@ -5,5 +5,20 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-
-
+img.creative {
+    width: 50%;
+}
+img.LEIA {
+    width: 50%;
+}
+img.the-sweet-shop {
+    width: 50%;
+}
+.basic-grid-gallery {}
+    width: 50%;
+    min-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
