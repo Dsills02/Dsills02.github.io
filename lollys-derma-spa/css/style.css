@@ -6,7 +6,7 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #navbar {
-    background: linear-gradient(to bottom, rgb(194, 147, 194), #f0b5ec);
+    background: linear-gradient(to bottom, rgb(179, 163, 121), #f0b5ec);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,12 +44,12 @@ body {
     position: sticky;
     top: 0px;
 }
-#navbar-bottom {
-    background: linear-gradient(to bottom, rgb(239, 229, 237), rgb(165, 143, 167));
-    display: flex;
-}
 #navbar-bottom a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 12px 36px;
 }  
+img {
+    border-radius: 10%;
+}
+
