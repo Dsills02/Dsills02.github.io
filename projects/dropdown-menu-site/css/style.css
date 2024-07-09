@@ -23,3 +23,9 @@ body {
 #navbar #logo {
     margin-right: auto;
 }
+#logo {
+    margin-left: auto;
+}
+#hero {
+    width: 24px;
+}
