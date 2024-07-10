@@ -6,7 +6,7 @@ body {
     font-family: sans-serif;
 }
 #navbar {
-    background: linear-gradient(to bottom, green, #3e6d3e);
+   background-color: rgb(203, 162, 113);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@ body {
 }
 #navbar a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 24px;
 }
 #navbar img {
@@ -22,10 +22,24 @@ body {
 }
 #navbar #logo {
     margin-right: auto;
-}
-#logo {
-    margin-left: auto;
+    display: block;
 }
 #hero {
-    width: 24px;
+    background-image: url(../image-hero.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+h1 {
+    font-size: 100px ;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#text {
+    font-size: x-large;
+}
+#name {
+    background-image: url(../pitbull.jpg);
+    height: 100vh;
+    background-size: cover;
 }
