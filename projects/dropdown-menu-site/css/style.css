@@ -32,14 +32,38 @@ body {
 h1 {
     font-size: 100px ;
     justify-content: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(white, rgb(213, 104, 182))    
 }
 #text {
     font-size: x-large;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(blue, white);
 }
-#name {
+#pitbull {
     background-image: url(../pitbull.jpg);
     height: 100vh;
     background-size: cover;
+    
 }
+#rosco {
+    background-image: url(../rosco.jpg);
+    height: 100vh;
+    background-size: cover;
+ 
+}
+#rosco h1 {
+    background: linear-gradient(blue, white);
+}
+#angel {
+    background-image: url(../angel.jpg);
+    height: 100vh;
+    background-size: cover;
+
+}
+h1 {
+    text-align: center;
+}
+
+
