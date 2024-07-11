@@ -9,8 +9,7 @@ body {
    background-color: rgb(203, 162, 113);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;   
 }
 #navbar a {
     text-decoration: none;
@@ -23,6 +22,7 @@ body {
 #navbar #logo {
     margin-right: auto;
     display: block;
+    font-size: 37px
 }
 #hero {
     background-image: url(../image-hero.jpg);
@@ -39,7 +39,7 @@ h1 {
     font-size: x-large;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: linear-gradient(blue, white);
+    background: linear-gradient(white, rgb(213, 104, 182))    
 }
 #pitbull {
     background-image: url(../pitbull.jpg);
@@ -53,17 +53,17 @@ h1 {
     background-size: cover;
  
 }
-#rosco h1 {
-    background: linear-gradient(blue, white);
-}
 #angel {
     background-image: url(../angel.jpg);
     height: 100vh;
-    background-size: cover;
-
+    background-size: cover;      
 }
 h1 {
     text-align: center;
 }
-
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
