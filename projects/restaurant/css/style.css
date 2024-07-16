@@ -8,10 +8,12 @@ body {
 }
 #menu-page {
     background-image: url(../images/greenery3.jpg);
+    
+    
  
 }
 #menu-link {
-    font-size: 44px;
+    font-size: 60px;
 }
 #navbar {
     background: linear-gradient(to bottom, rgb(1, 53, 1), #3e6d3e);
@@ -49,17 +51,23 @@ body {
     font-family: active, sans-serif;
     font-weight: 400;
     font-style: normal;
+
+    
 }
 .button {
     background-color:rgb(255, 255, 255);
     padding: 24px;
     border-radius: 24px;
+    font-size: 70px;
 }
 #header-2 {
-    background: linear-gradient(to top, #ffffff7c,#3734347c) ,url(../images/featured-dish.jpg);
+    background: linear-gradient(to top, #0b0b0b,#ffffff7c) ,url(../images/featured-dish.jpg);
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -70,18 +78,26 @@ body {
     margin: 0px auto;
 }
 #header-2 h2 {
-    color: azure;
+    color: rgb(0, 0, 0);
     font-family: active, sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 50px;
 }
 #header-2 h1 {
-    color: azure;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
 }
 #header-2 h3 {
-    color: white;
-    background-color: rgb(119, 75, 21);
+    color: rgb(0, 0, 0);
+    background-color: rgb(114, 185, 140);
     border-radius: 10px;
+    font-size: 36px;
+    font-size: 45px;
+}
+#hd {
+    display: flex;
+    align-items: flex-end;
 }
 #centered-column {
     width: 90vw;
@@ -117,13 +133,13 @@ body {
 .card .btn {
     color: black;
     text-decoration: none;
-    background-color: #4a3636;
+    background-color: #aa4646;
     font-weight: bold;
     display: inline-block;
     width: 100%;
     text-align: center;
     border: 3px solid lightcoral;
-    padding: 10px;
+    padding: 100px;
     transition: 
         background-color 0.5s, 
         color 0.5s
@@ -140,6 +156,13 @@ body {
     font-weight: 400;
     font-style: normal;
     border: #03160a;
+    padding: 24pxpx;
+}
+#hero-text {
+    bottom: 12px;
+    object-fit: cover;
+    display: inline-block;
+    left: center;
 }
 @media screen and (max-width: 480px) {
     #navbar {
