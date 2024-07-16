@@ -5,7 +5,13 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    
+}
+#menu-page {
+    background-image: url(../images/greenery3.jpg);
+ 
+}
+#menu-link {
+    font-size: 44px;
 }
 #navbar {
     background: linear-gradient(to bottom, rgb(1, 53, 1), #3e6d3e);
@@ -14,20 +20,16 @@ body {
     font-family: active, sans-serif;
     font-weight: 400;
     font-style: normal;
-    align-items: center;
-
-    
-    
+    align-items: center;   
 }
 #navbar a {
     text-decoration: none;
     color: white;
     padding: 24px;
-    
 }
 .logo {
     margin-right: auto;
-    font-size: 24px;
+    font-size: 34px;
     font-family: "charmonman", sans-serif;
 }
 #hero {
@@ -40,9 +42,6 @@ body {
     align-items: flex-start;
     flex-direction: column;
     padding-left: 24px;
-
-    
-    
 }
 #hero h1 {
     font-size: 70px;
@@ -50,14 +49,11 @@ body {
     font-family: active, sans-serif;
     font-weight: 400;
     font-style: normal;
-
-    
 }
 .button {
     background-color:rgb(255, 255, 255);
     padding: 24px;
     border-radius: 24px;
-
 }
 #header-2 {
     background: linear-gradient(to top, #ffffff7c,#3734347c) ,url(../images/featured-dish.jpg);
@@ -70,6 +66,8 @@ body {
     font-family: active, sans-serif;
     font-weight: 400;
     font-style: normal;
+    width: 50%;
+    margin: 0px auto;
 }
 #header-2 h2 {
     color: azure;
@@ -79,6 +77,11 @@ body {
 }
 #header-2 h1 {
     color: azure;
+}
+#header-2 h3 {
+    color: white;
+    background-color: rgb(119, 75, 21);
+    border-radius: 10px;
 }
 #centered-column {
     width: 90vw;
@@ -92,7 +95,6 @@ body {
 .card img {
     height: 150px;
     object-fit: cover;
-    
 }
 .card {
     width: 350px;
@@ -102,8 +104,8 @@ body {
     box-shadow: -4px 4px 12px #03160a;
     background: linear-gradient(-50deg, #22a01f, #fff7f7, #749c6f);
     font-family: active, sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 .card h2 {
     font-size: 36px;
@@ -139,8 +141,9 @@ font-style: normal;
     font-style: normal;
     border: #03160a;
 }
-
-
-
-
-
+@media screen and (max-width: 480px) {
+    #navbar {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
